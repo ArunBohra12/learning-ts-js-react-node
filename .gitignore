@@ -1,0 +1,10 @@
+#general
+node_modules
+
+#node
+
+#react
+react/*/dist
+
+#typescript
+typescript/js
