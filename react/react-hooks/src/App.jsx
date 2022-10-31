@@ -3,6 +3,7 @@ import UseRefHook from "./useRef/Ref";
 import UseMemoHook from "./useMemo/useMemo";
 import UseCallbackHook from "./useCallback/useCallback";
 import UseReducerHook from "./useReducer/useReducerHook";
+import CustomHooks from "./custom/custom";
 import "./App.css";
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <UseRefHook /> */}
       {/* <UseMemoHook /> */}
       {/* <UseCallbackHook /> */}
-      <UseReducerHook />
+      {/* <UseReducerHook /> */}
+      <CustomHooks />
     </>
   );
 }

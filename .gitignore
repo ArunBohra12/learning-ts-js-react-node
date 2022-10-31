@@ -7,4 +7,5 @@ node_modules
 react/*/dist
 
 #typescript
-typescript/js
+typescript/*/js
+typescript/*/dist

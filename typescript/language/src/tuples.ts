@@ -44,10 +44,46 @@ interface I_Person {
   lastName?: string;
 }
 
-const pt: I_Point = { x: 1, y: 2 };
+const pt: I_Point = { x: 1, y: 2, z: 10 };
+
 const thomas: I_Person = {
   id: 23232323,
   name: 'Thomas',
   age: 23,
   sayHi: (name: string) => `Hi ${name}`,
+};
+
+// extends interface and not overwrites
+interface I_Point {
+  z?: number;
+}
+
+interface doctor extends I_Person {
+  job: 'doctor' | 'nurse' | 'surgeon';
+}
+
+const Jamie: doctor = {
+  id: 232323,
+  name: 'Jamie',
+  age: 22,
+  sayHi: (name: string) => `Hi, ${name}`,
+  job: 'doctor',
+};
+
+interface I_Employee {
+  readonly email: string;
+}
+
+interface I_Engineer extends I_Person {
+  speciality: string;
+  languages: Array<string>;
+}
+
+const tony: I_Engineer = {
+  id: 2323,
+  name: 'Tony',
+  age: 25,
+  sayHi: (name: string) => `Hi, ${name}`,
+  speciality: 'web',
+  languages: ['javascript'],
 };
