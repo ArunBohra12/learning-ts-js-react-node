@@ -9,3 +9,4 @@ react/*/dist
 #typescript
 typescript/*/js
 typescript/*/dist
+typescript/*/build
