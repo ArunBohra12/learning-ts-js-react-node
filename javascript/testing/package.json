@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --watchAll *.test.js"
+  },
+  "author": "Arun Bohra",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.2"
+  }
+}
