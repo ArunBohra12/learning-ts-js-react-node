@@ -1,0 +1,7 @@
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+  translate: -50% -50%;
+}
